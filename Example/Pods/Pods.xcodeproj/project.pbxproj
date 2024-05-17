@@ -185,7 +185,7 @@
 		038E24F22C52ED257D11C7A4F39775F5 /* world.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = world.hpp; sourceTree = "<group>"; };
 		057325FE06C36B7E95AB780A7DA7D5C5 /* stabilizer.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = stabilizer.hpp; sourceTree = "<group>"; };
 		0655150858E3917E71DA14E00123805E /* background_segm.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = background_segm.hpp; sourceTree = "<group>"; };
-		07481DA3D8B8C855B142FAF1778CC4AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		07481DA3D8B8C855B142FAF1778CC4AD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		07606296898BD4925A7512C93F8A6422 /* Pods-DocumentDetect_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DocumentDetect_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		08FB32324B021F1BE8517F5533B66B82 /* fast_marching.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = fast_marching.hpp; sourceTree = "<group>"; };
 		098788DEA323487173B1994F4341FDB3 /* cuda_devptrs.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = cuda_devptrs.hpp; sourceTree = "<group>"; };
@@ -197,19 +197,19 @@
 		0D847EA64F6B355A5E77A2D1ECCFC07C /* photo.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = photo.hpp; sourceTree = "<group>"; };
 		0F188A4913E82D632D59F0840D37FD8E /* dummy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = dummy.h; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
-		0F8D142A45829890A778841914898E49 /* DocumentDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DocumentDetect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		0FB762D800D241FDD93CF004F0FA5467 /* DocumentDetect */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DocumentDetect; path = DocumentDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F8D142A45829890A778841914898E49 /* DocumentDetect.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = DocumentDetect.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0FB762D800D241FDD93CF004F0FA5467 /* DocumentDetect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DocumentDetect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12F42DA9D15E5573846E8A5571B338B6 /* core.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = core.hpp; sourceTree = "<group>"; };
 		15BC45A1E729BFEA6ADE6435FF1DA288 /* matrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = matrix.h; sourceTree = "<group>"; };
 		15EC7EB67C2AC7E3F2DC48A161B8C3EE /* FMHEDNet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMHEDNet.h; sourceTree = "<group>"; };
 		169CC60F09C1AD5161CEAB8C8F02DFB2 /* lsh_index.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = lsh_index.h; sourceTree = "<group>"; };
-		1838FCB13CA813AA94D2A3BF348C3F5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		1838FCB13CA813AA94D2A3BF348C3F5F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1968B38F2E9C03293DDF626A0E75440D /* seam_finders.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = seam_finders.hpp; sourceTree = "<group>"; };
 		198E21F01346865BC8C82D834C75B766 /* gpumat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = gpumat.hpp; sourceTree = "<group>"; };
 		1A9569329C132494BD892375DC616EC7 /* flann.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = flann.hpp; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		1B3487081CA7ED918C167DE63AA86AAD /* frame_source.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = frame_source.hpp; sourceTree = "<group>"; };
-		1C0DD3BBF613D7F21CF2E1FBC71747D3 /* OpenCVUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = OpenCVUtils.mm; path = DocumentDetect/Classes/OpenCVUtils.mm; sourceTree = "<group>"; };
+		1C0DD3BBF613D7F21CF2E1FBC71747D3 /* OpenCVUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = OpenCVUtils.mm; path = DocumentDetect/Classes/OpenCVUtils.mm; sourceTree = "<group>"; };
 		1DA24A38BA9EE106B59E3D4C8DD1CE0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1EC76BA4849F91EE29EDD2D51B737B57 /* Pods-DocumentDetect_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DocumentDetect_Tests-Info.plist"; sourceTree = "<group>"; };
 		1FCAE4EBE0693D6A67FD4F3706470952 /* all_indices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = all_indices.h; sourceTree = "<group>"; };
@@ -277,7 +277,7 @@
 		7A6BE42A334F8B735A937C9CB86F4697 /* mat.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = mat.hpp; sourceTree = "<group>"; };
 		7A871BDA08ACA3D66C3EB6DEA2E971A6 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7F62A68AACF3E6115F1E7AC4CD73EAB1 /* OpenCVUtils+Extensions.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = "OpenCVUtils+Extensions.mm"; path = "DocumentDetect/Classes/OpenCVUtils+Extensions.mm"; sourceTree = "<group>"; };
+		7F62A68AACF3E6115F1E7AC4CD73EAB1 /* OpenCVUtils+Extensions.mm */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.objcpp; name = "OpenCVUtils+Extensions.mm"; path = "DocumentDetect/Classes/OpenCVUtils+Extensions.mm"; sourceTree = "<group>"; };
 		80695FC6F1527996AD7939D24DF5B599 /* highgui.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = highgui.hpp; sourceTree = "<group>"; };
 		817A05B42439F4A3F3E41F507E9BB4DA /* warpers_inl.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = warpers_inl.hpp; sourceTree = "<group>"; };
 		826AAE85A09F3844F55705B25613B63D /* openfabmap.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = openfabmap.hpp; sourceTree = "<group>"; };
@@ -304,7 +304,7 @@
 		9B57F20BF7CD6795A3E3316DEA4B772A /* tracking.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = tracking.hpp; sourceTree = "<group>"; };
 		9C52812039084518312EEB8234AA1965 /* deblurring.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = deblurring.hpp; sourceTree = "<group>"; };
 		9D539A92E16B2A425C9F6E6F10D8EA07 /* DocumentDetect-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DocumentDetect-prefix.pch"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F110A5C11B9FCF1618EAA6B2A84CE22 /* ResourceBundle-DocumentDetect-DocumentDetect-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-DocumentDetect-DocumentDetect-Info.plist"; sourceTree = "<group>"; };
 		9F583C56F754EC94C7575C1601476A1D /* streams.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = streams.hpp; sourceTree = "<group>"; };
 		A05AD62D60686B2F3AA6C4119BBA347A /* timer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = timer.h; sourceTree = "<group>"; };
@@ -358,7 +358,7 @@
 		F731B9C6F277E90B85EB5FB25EC51E1C /* optical_flow.hpp */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.cpp.h; path = optical_flow.hpp; sourceTree = "<group>"; };
 		F9E78C82FE8684E337FC2286B20CA29F /* Pods-DocumentDetect_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DocumentDetect_Example-resources.sh"; sourceTree = "<group>"; };
 		FC311E2D9890B7020F77649B9567A28F /* Pods-DocumentDetect_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DocumentDetect_Tests"; path = Pods_DocumentDetect_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD74C83E53CAC20F8B5B1162F96F12F3 /* hed_graph.pb */ = {isa = PBXFileReference; includeInIndex = 1; name = hed_graph.pb; path = DocumentDetect/Assets/hed_graph.pb; sourceTree = "<group>"; };
+		FD74C83E53CAC20F8B5B1162F96F12F3 /* hed_graph.pb */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file; name = hed_graph.pb; path = DocumentDetect/Assets/hed_graph.pb; sourceTree = "<group>"; };
 		FE4DC746887FB79AF30F710EFAEDD089 /* params.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = params.h; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		FEF0679FC6250B7F1EC0A1B2681A8442 /* Pods-DocumentDetect_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DocumentDetect_Example-dummy.m"; sourceTree = "<group>"; };
@@ -435,7 +435,6 @@
 				A8D8B181B485151B0208C8FEFEC23717 /* highgui_c.h */,
 				BAEEDEE290A97CDAE9A2790A895FD240 /* ios.h */,
 			);
-			name = highgui;
 			path = highgui;
 			sourceTree = "<group>";
 		};
@@ -444,7 +443,6 @@
 			children = (
 				73108C813EDFD6C5BDA6179619E8C04F /* calib3d.hpp */,
 			);
-			name = calib3d;
 			path = calib3d;
 			sourceTree = "<group>";
 		};
@@ -453,7 +451,6 @@
 			children = (
 				9855FA66A544DF9A5D1B9075653A9BFA /* objdetect.hpp */,
 			);
-			name = objdetect;
 			path = objdetect;
 			sourceTree = "<group>";
 		};
@@ -464,14 +461,13 @@
 				9B02840FC1622B952C6744E3F65AC986 /* imgproc_c.h */,
 				DFC749D06371A722D02862659529615F /* types_c.h */,
 			);
-			name = imgproc;
 			path = imgproc;
 			sourceTree = "<group>";
 		};
 		23C593352FD2CBF03B6518B85EBFBEB6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0FB762D800D241FDD93CF004F0FA5467 /* DocumentDetect */,
+				0FB762D800D241FDD93CF004F0FA5467 /* DocumentDetect.framework */,
 				C3922B2D415C50F36EA44A8CA05490F0 /* DocumentDetect-DocumentDetect */,
 				5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase */,
 				8A6356B5935B01FC0897591B4A91EFC7 /* Pods-DocumentDetect_Example */,
@@ -485,7 +481,6 @@
 			children = (
 				208FB8A371AD7E690354DC15C6ACF72A /* ml.hpp */,
 			);
-			name = ml;
 			path = ml;
 			sourceTree = "<group>";
 		};
@@ -498,7 +493,6 @@
 				826AAE85A09F3844F55705B25613B63D /* openfabmap.hpp */,
 				D5B0BD1C1AEE6444CF594152AE93FD50 /* retina.hpp */,
 			);
-			name = contrib;
 			path = contrib;
 			sourceTree = "<group>";
 		};
@@ -509,7 +503,6 @@
 				9B57F20BF7CD6795A3E3316DEA4B772A /* tracking.hpp */,
 				294090ECE12D0A1AEBFA7206154E2C0C /* video.hpp */,
 			);
-			name = video;
 			path = video;
 			sourceTree = "<group>";
 		};
@@ -532,7 +525,6 @@
 				BB98AABEC7B8CBBE04E6C8C629BB7F86 /* version.hpp */,
 				BD9BCCBA41A063A3C3472315DBB1DD6F /* wimage.hpp */,
 			);
-			name = core;
 			path = core;
 			sourceTree = "<group>";
 		};
@@ -607,7 +599,6 @@
 				6460CCD31AF978B543F9390A13496020 /* videostab */,
 				D5667682CF66797F34999879A10F0174 /* world */,
 			);
-			name = Headers;
 			path = Headers;
 			sourceTree = "<group>";
 		};
@@ -638,7 +629,6 @@
 				057325FE06C36B7E95AB780A7DA7D5C5 /* stabilizer.hpp */,
 				BA94720654EADA85996B752ACE19EDE3 /* videostab.hpp */,
 			);
-			name = videostab;
 			path = videostab;
 			sourceTree = "<group>";
 		};
@@ -647,7 +637,6 @@
 			children = (
 				E187B7A19AE1B3509E18E51321B10F19 /* A */,
 			);
-			name = Versions;
 			path = Versions;
 			sourceTree = "<group>";
 		};
@@ -691,7 +680,6 @@
 				8CA44466ABBF12005BC240F497961427 /* simplex_downhill.h */,
 				A05AD62D60686B2F3AA6C4119BBA347A /* timer.h */,
 			);
-			name = flann;
 			path = flann;
 			sourceTree = "<group>";
 		};
@@ -762,7 +750,6 @@
 				93152D7D32505E1D53B1DB0D02C7FED2 /* warpers.hpp */,
 				C4EA723622D376205B5A99B04704B85E /* detail */,
 			);
-			name = stitching;
 			path = stitching;
 			sourceTree = "<group>";
 		};
@@ -796,7 +783,6 @@
 				B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */,
 				906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */,
 			);
-			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
 			sourceTree = "<group>";
 		};
@@ -815,7 +801,6 @@
 				0D847EA64F6B355A5E77A2D1ECCFC07C /* photo.hpp */,
 				3123094D3A252D7F8F71FA8123A8839E /* photo_c.h */,
 			);
-			name = photo;
 			path = photo;
 			sourceTree = "<group>";
 		};
@@ -834,7 +819,6 @@
 				22A4348C6F92AEFAAB9F8DC463332E03 /* warpers.hpp */,
 				817A05B42439F4A3F3E41F507E9BB4DA /* warpers_inl.hpp */,
 			);
-			name = detail;
 			path = detail;
 			sourceTree = "<group>";
 		};
@@ -854,7 +838,6 @@
 				6BF6DC3CEACFD48CCC76AB01E169A4AE /* nonfree.hpp */,
 				B2A6289C4A67D40B78F08FEA2AB84BEC /* ocl.hpp */,
 			);
-			name = nonfree;
 			path = nonfree;
 			sourceTree = "<group>";
 		};
@@ -875,7 +858,6 @@
 			children = (
 				8F70292B4B8544A0E946D56144CEB9FB /* features2d.hpp */,
 			);
-			name = features2d;
 			path = features2d;
 			sourceTree = "<group>";
 		};
@@ -884,7 +866,6 @@
 			children = (
 				038E24F22C52ED257D11C7A4F39775F5 /* world.hpp */,
 			);
-			name = world;
 			path = world;
 			sourceTree = "<group>";
 		};
@@ -893,7 +874,6 @@
 			children = (
 				5BD3667ABF508E646D344F8D893F6B4C /* Headers */,
 			);
-			name = A;
 			path = A;
 			sourceTree = "<group>";
 		};
@@ -905,7 +885,6 @@
 				418C0B3F7D1D4B90D32115196B4D74CA /* legacy.hpp */,
 				9F583C56F754EC94C7575C1601476A1D /* streams.hpp */,
 			);
-			name = legacy;
 			path = legacy;
 			sourceTree = "<group>";
 		};
@@ -1156,7 +1135,7 @@
 			);
 			name = DocumentDetect;
 			productName = DocumentDetect;
-			productReference = 0FB762D800D241FDD93CF004F0FA5467 /* DocumentDetect */;
+			productReference = 0FB762D800D241FDD93CF004F0FA5467 /* DocumentDetect.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
@@ -1331,6 +1310,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F4387970781B17910F42CDD989DA8806 /* DocumentDetect.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1512,8 +1492,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1553,6 +1532,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = ED0E1242BC08A0C319D076D983B470B3 /* DocumentDetect.release.xcconfig */;
 			buildSettings = {
+				ARCHS = arm64;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1569,6 +1549,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/DocumentDetect/DocumentDetect.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_MODULE_NAME = DocumentDetect;
 				PRODUCT_NAME = DocumentDetect;
 				SDKROOT = iphoneos;
