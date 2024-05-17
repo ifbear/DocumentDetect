@@ -1,0 +1,27 @@
+PODS:
+  - DocumentDetect (0.1.0)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - DocumentDetect (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  DocumentDetect:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DocumentDetect: 4985e53c41ecd37af9a885347397ca97402c20c0
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 46887bf79c2f894d8daa3e89a640275816d3d6f3
+
+COCOAPODS: 1.15.2

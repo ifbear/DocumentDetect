@@ -1,0 +1,60 @@
+{
+  "name": "DocumentDetect",
+  "version": "0.1.0",
+  "summary": "A short description of DocumentDetect.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sundexiong@hotmail.com/DocumentDetect",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sundexiong@hotmail.com": "dexiong@staff.sina.com"
+  },
+  "source": {
+    "git": "/Users/dexiong/Desktop/DocumentDetect/DocumentDetect",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "static_framework": true,
+  "requires_arc": true,
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-ObjC -all_load",
+    "ALWAYS_SEARCH_USER_PATHS": "YES",
+    "HEADER_SEARCH_PATHS": "$(inherited)",
+    "FRAMEWORK_SEARCH_PATHS": "$(inherited)"
+  },
+  "source_files": [
+    "DocumentDetect/Classes/**/*.{h,m,mm,hpp}",
+    "DocumentDetect/Classes/opencv2.framework/Versions/A/Headers/**/*.{h,hpp}"
+  ],
+  "resource_bundles": {
+    "DocumentDetect": [
+      "DocumentDetect/Assets/*"
+    ]
+  },
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64"
+  },
+  "vendored_libraries": "DocumentDetect/Classes/**/*.a",
+  "public_header_files": "DocumentDetect/Classes/**/*.{h,hpp}",
+  "frameworks": [
+    "Accelerate",
+    "AssetsLibrary",
+    "AVFoundation",
+    "CoreGraphics",
+    "CoreImage",
+    "CoreMedia",
+    "CoreVideo",
+    "CoreVideo",
+    "UIKit",
+    "Foundation"
+  ],
+  "libraries": "stdc++",
+  "vendored_frameworks": "DocumentDetect/Classes/opencv2.framework"
+}

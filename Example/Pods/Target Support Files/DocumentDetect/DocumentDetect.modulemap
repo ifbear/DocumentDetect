@@ -1,0 +1,6 @@
+framework module DocumentDetect {
+  umbrella header "DocumentDetect-umbrella.h"
+
+  export *
+  module * { export * }
+}

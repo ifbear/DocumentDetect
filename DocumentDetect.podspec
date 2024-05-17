@@ -25,18 +25,34 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sundexiong@hotmail.com' => 'dexiong@staff.sina.com' }
-  s.source           = { :git => 'https://github.com/sundexiong@hotmail.com/DocumentDetect.git', :tag => s.version.to_s }
+  # s.source           = { :git => 'https://github.com/sundexiong@hotmail.com/DocumentDetect.git', :tag => s.version.to_s }
+  s.source           = { :git => 'file://Users/dexiong/DocumentDetect', :tag => s.version.to_s }
+  
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'DocumentDetect/Classes/**/*'
+    s.ios.deployment_target = '13.0'
+  s.static_framework = true
+  s.requires_arc = true
   
-  # s.resource_bundles = {
-  #   'DocumentDetect' => ['DocumentDetect/Assets/*.png']
-  # }
+  s.xcconfig = {
+    'OTHER_LDFLAGS' => '-ObjC -all_load',
+    'ALWAYS_SEARCH_USER_PATHS' => 'YES',
+    'HEADER_SEARCH_PATHS' => '$(inherited)', # $(PROJECT_DIR)/FMHEDNet/Classes/opencv2.framework/Versions/A/Headers
+    'FRAMEWORK_SEARCH_PATHS' => '$(inherited)' # $(PODS_ROOT)/FMHEDNet/Classes/opencv2.framework
+   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'DocumentDetect/Classes/**/*.{h,m,mm,hpp}', 'DocumentDetect/Classes/opencv2.framework/Versions/A/Headers/**/*.{h,hpp}'
+  
+  s.resource_bundles = {
+     'DocumentDetect' => ['DocumentDetect/Assets/*']
+  }
+  
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.vendored_libraries = 'DocumentDetect/Classes/**/*.a'
+  s.public_header_files = 'DocumentDetect/Classes/**/*.{h,hpp}'
+  s.frameworks = 'Accelerate', 'AssetsLibrary', 'AVFoundation', 'CoreGraphics', 'CoreImage', 'CoreMedia', 'CoreVideo', 'CoreVideo', 'UIKit', 'Foundation'
+  s.libraries = 'stdc++'
+  s.vendored_frameworks = 'DocumentDetect/Classes/opencv2.framework'
+  # s.dependency 'OpenCV', '2.4.9'
 end

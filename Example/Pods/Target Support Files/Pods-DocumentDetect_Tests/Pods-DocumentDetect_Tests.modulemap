@@ -1,0 +1,6 @@
+framework module Pods_DocumentDetect_Tests {
+  umbrella header "Pods-DocumentDetect_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

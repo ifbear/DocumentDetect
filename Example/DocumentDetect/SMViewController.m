@@ -7,6 +7,13 @@
 //
 
 #import "SMViewController.h"
+#import "SMUtils.h"
+
+#if TARGET_PHONE_SIMULATOR
+
+#elif TARGET_OS_IPHONE
+
+#endif
 
 @interface SMViewController ()
 
@@ -17,7 +24,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [[SMUtils alloc] init];
 }
 
 - (void)didReceiveMemoryWarning
