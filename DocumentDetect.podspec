@@ -33,7 +33,7 @@ TODO: Add long description of the pod here.
     s.ios.deployment_target = '13.0'
   s.static_framework = true
   s.requires_arc = true
-  
+
   s.xcconfig = {
     'OTHER_LDFLAGS' => '-ObjC -all_load',
     'ALWAYS_SEARCH_USER_PATHS' => 'YES',
@@ -55,4 +55,8 @@ TODO: Add long description of the pod here.
   s.libraries = 'stdc++'
   s.vendored_frameworks = 'DocumentDetect/Classes/opencv2.framework'
   # s.dependency 'OpenCV', '2.4.9'
+  
+  def ios_build_options
+   "ARCHS='$(ARCHS_STANDARD)' OTHER_CFLAGS='-fembed-bitcode -Qunused-arguments'"
+  end
 end
